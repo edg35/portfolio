@@ -210,6 +210,38 @@ section {
     gap: 1rem;
 }
 
+/* LIVE SECTION */
+#live {
+    position: relative;
+}
+
+.live-data-container {
+    display: flex;
+    gap: 2rem;
+    margin-top: 4rem;
+    height: 15rem;
+    align-items: end;
+}
+
+.max-height {
+    height: 7rem;
+}
+
+.middle-container {
+    align-self: flex-start;
+}
+
+.live-about-paragraph {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+}
+
+.live-button-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
 /* ICONS */
 
 .icon {
