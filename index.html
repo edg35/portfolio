@@ -48,7 +48,7 @@
             <h1 class="title">Ethan Green</h1>
             <p class="section__text__p2">Software Developer</p>
             <div class="btn-container">
-                <button class="btn btn-color-2" onclick="window.open('./assets/resume.pdf')">
+                <button class="btn btn-color-2" onclick="addResumeDownload()">
                     Download CV
                 </button>
                 <button class="btn btn-color-1" onclick="location.href='#contact'">
@@ -68,30 +68,32 @@
         <h1 class="title">Live Data</h1>
         <div class="live-container">
             <div class="live-data-container">
-                <div class="details-container max-height">
+                <div class="details-container max-height left-container">
                     <img src="./assets/education.png" alt="Education icon" class="icon" />
                     <p>Resume Downloads</p>
-                    <h3>7</h3>
+                    <h3 class="live-number" id="resume_downloads">7</h3>
                 </div>
                 <div class="details-container max-height middle-container">
                     <img src="./assets/education.png" alt="Education icon" class="icon" />
                     <p>Total Views</p>
-                    <h3>21</h3>
+                    <h3 class="live-number" id="total_views">21</h3>
                 </div>
                 <div class="details-container max-height">
                     <img src="./assets/education.png" alt="Education icon" class="icon" />
                     <p>Views This Month</p>
-                    <h3>12</h3>
+                    <h3 class="live-number" id="monthly_views">12</h3>
                 </div>
             </div>
-            <p class="live-about-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu augue ac lorem ullamcorper mollis et ut dolor.
-            Curabitur vitae diam vitae massa dignissim bibendum. Duis non dignissim urna, a hendrerit dui. Suspendisse lobortis mi
-            non gravida volutpat. Suspendisse sollicitudin dignissim orci, et semper lacus viverra et.</p>
+            <p class="live-about-paragraph">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu augue ac lorem ullamcorper mollis et ut dolor.
+                Curabitur vitae diam vitae massa dignissim bibendum. Duis non dignissim urna, a hendrerit dui. Suspendisse lobortis mi
+                non gravida volutpat. Suspendisse sollicitudin dignissim orci, et semper lacus viverra et.
+            </p>
             <div class="live-button-container">
-                <button class="btn btn-color-2" onclick="location.href='#contact'">
+                <button class="btn btn-color-2" onclick="location.href='https://github.com/edg35/portfolio'">
                     Github
                 </button>
-                <button class="btn btn-color-1" onclick="location.href='#contact'">
+                <button class="btn btn-color-1" onclick="loadAWSDiagram()">
                     Diagram
                 </button>
             </div>
@@ -103,7 +105,7 @@
         <h1 class="title">About Me</h1>
         <div class="section-container">
             <div class="section__pic-container">
-                <img src="./assets/profile-pic.jpeg" alt="Profile picture" class="about-pic" />
+                <img src="./assets/about.JPG" alt="Profile picture" class="about-pic" />
             </div>
             <div class="about-details-container">
                 <div class="about-containers">
@@ -182,13 +184,6 @@
                                 <p>Intermediate</p>
                             </div>
                         </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-                            <div>
-                                <h3>Dart</h3>
-                                <p>Basic</p>
-                            </div>
-                        </article>
                     </div>
                 </div>
                 <div class="details-container">
@@ -197,21 +192,14 @@
                         <article>
                             <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
                             <div>
-                                <h3>PostgreSQL</h3>
-                                <p>Basic</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-                            <div>
-                                <h3>Node JS</h3>
+                                <h3>SQL / NoSQL</h3>
                                 <p>Intermediate</p>
                             </div>
                         </article>
                         <article>
                             <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
                             <div>
-                                <h3>Express JS</h3>
+                                <h3>Node JS</h3>
                                 <p>Intermediate</p>
                             </div>
                         </article>
@@ -232,14 +220,14 @@
                         <article>
                             <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
                             <div>
-                                <h3>Flutter</h3>
+                                <h3>AWS</h3>
                                 <p>Intermediate</p>
                             </div>
                         </article>
                         <article>
                             <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
                             <div>
-                                <h3>React</h3>
+                                <h3>Next.js</h3>
                                 <p>Intermediate</p>
                             </div>
                         </article>
