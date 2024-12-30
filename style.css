@@ -219,8 +219,7 @@ section {
     display: flex;
     gap: 2rem;
     margin-top: 4rem;
-    height: 16rem;
-    align-items: end;
+    height: 12rem;
 }
 
 .max-height {
