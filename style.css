@@ -400,6 +400,14 @@ article .icon {
     cursor: default;
 }
 
+.experience-certifications-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+    padding-bottom: 3rem;
+}
+
 /* PROJECTS SECTION */
 
 #projects {
